@@ -1,0 +1,38 @@
+{
+   "plugins": ["import", "eslint-plugin-prettier"],
+   "extends": ["eslint-config-prettier", "eslint:recommended"],
+   "parser": "babel-eslint",
+   "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+         "generators": true,
+         "experimentalObjectRestSpread": true
+      }
+   },
+   "env": {
+      "browser": true,
+      "es6": true,
+      "jest": true,
+      "node": true
+   },
+   "rules": {
+      "no-const-assign": 1,
+      "no-extra-semi": 0,
+      "semi": 0,
+      "no-fallthrough": 0,
+      "no-mixed-spaces-and-tabs": 1,
+      "no-redeclare": 0,
+      "no-this-before-super": 1,
+      "no-undef": 1,
+      "no-unreachable": 1,
+      "no-unused-vars": 1,
+      "no-use-before-define": 1,
+      "constructor-super": 1,
+      "curly": 0,
+      "eqeqeq": 1,
+      "func-names": 1,
+      "valid-typeof": 1,
+      "no-console": 0
+   }
+}

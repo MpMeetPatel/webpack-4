@@ -1,0 +1,31 @@
+/*==================================================================
+
+                        TABLE OF CONTENT
+
+            1. Variables
+            2. Common Style For HTML page
+
+=====================================================================*/
+/*===============================
+           VARIABLES
+=================================*/
+
+$primary-color: rgba(9, 24, 236, 1);
+$secondary-color: rgba(223, 226, 219, 1);
+$font-and-navBackgroung-color: #fff;
+$overlay: rgba(0, 0, 0, 0.8);
+
+/*-----------------------------------------------------
+          common style of html page
+-------------------------------------------------------*/
+
+body,
+html {
+   font-family: "Maven Pro", cursive, serif, sans-serif;
+   font-weight: 100;
+   width: 100%;
+   line-height: normal;
+   position: relative;
+   overflow-x: hidden;
+}
+
